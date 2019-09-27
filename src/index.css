@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height:100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.middle {
+  font-size: 9rem;
+  color: #09d3ac;
+  text-shadow: 2px 1px 6px #09d3acb8;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+}
+
+html{
+  height: 100vh;
 }
